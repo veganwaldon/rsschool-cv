@@ -1,34 +1,34 @@
-#Tuyara Grigoreva
+# Tuyara Grigoreva
 -----
-##Contacts
+## Contacts
 -----
 - Location: Moscow, Russia
 - TG: @tuyaragrigoreva 
 - Email:tuyagrig@gmail.com
 - GitHub: [](https://github.com/veganwaldon "vegan waldon")
-##About
+## About
 -----
 Currently 21school(Ecole 42) student.
 Looking for a career pathway as a software developer.
-##Skills
+## Skills
 ---
 - C
 - Git
 - HTML/CSS
 - JavaScript
-##Code example
+## Code example
 -----
 ```
 console.log("hello world :)");
 ```
-##Education
+## Education
 ----
-- **University: Bauman Moscow State Technical University, Information Systems
-- **Courses:
+- **University**: Bauman Moscow State Technical University, Information Systems
+- **Courses**:
 	+ CS50
 	+ RSSchool
 	+ HTML Academy
-##English
+## English
 -----
 Upper-Intermediate 
 
