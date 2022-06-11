@@ -1,3 +1,3 @@
 # rsschool-cv
 
-RS School js learning 
+https://veganwaldon.github.io/rsschool-cv/cv
