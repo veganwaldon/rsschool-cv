@@ -4,11 +4,11 @@
 
 - Location: Moscow, Russia
 - TG: @tuyaragrigoreva 
-- Email:tuyagrig@gmail.com
-- GitHub: [](https://github.com/veganwaldon "vegan waldon")
+- Email: tuyagrig@gmail.com
+- GitHub: [veganwaldon](https://github.com/veganwaldon)
 ## About
 
-Currently 21school(Ecole 42) student.
+Currently 21school(Ecole 42) student.--
 Looking for a career pathway as a software developer.
 ## Skills
 
