@@ -1,1 +1,1 @@
-# rsschool-cv
+https://github.com/veganwaldon/rsschool-cv/cv
