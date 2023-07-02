@@ -32,26 +32,6 @@ I enjoy learning and gaining skills and would like to be a well-qualified Fronte
 
 ---
 
-### Code example:
-
-**Peak array index KATA from CODEWARS:**
-*Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.*
-
-```javascript
-function peak(arr) {
-
-  for (let i = 1; i < arr.length - 1; i++) {
-    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
-    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
-    if (leftSum === rightSum) {
-      return i;
-    }
-  }
-  return -1;
-}
-```
----
-
 ### Education:
 
 - Bauman Moscow State Technical University, Master of Computer Science
