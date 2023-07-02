@@ -1,1 +1,1 @@
-https://github.com/veganwaldon/rsschool-cv/cv
+https://github.com/veganwaldon/rsschool-cv/blob/gh-pages/cv.md

@@ -52,10 +52,15 @@ function peak(arr) {
 ```
 ---
 
+### Education:
+
+- Bauman Moscow State Technical University, Master of Computer Science
+- School 21 (Ecole 42), Programming Full Course
+
 ### Courses:
 
-- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+- React Pizza 2.0
+- RS School «JavaScript/Front-end. Stage 0» (in progress)
 
 ---
 
