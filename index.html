@@ -40,24 +40,59 @@
 
     <main class="main">
         <div class="container main-container">
-
-            <section class="section"></section>
-            <section class="section"></section>
-            <section class="section">About:
-                I’m interested in Web Development, because I'm passionate about frontend.
-                I enjoy learning and gaining skills and would like to be a well-qualified Frontend Developer.
+            <section class="about-me">
+                <h2>About me:</h2>
+                <p>I’m interested in Web Development, because I'm passionate about frontend.
+                    I enjoy learning and gaining skills and would like to become a well-qualified Frontend Developer.
+                </p>
             </section>
-            <section>Skills and Proficiency:
-                HTML5, CSS3
-                JavaScript, TypeScript
-                Git, Github/Gitlab/Bitbucket, Jira, Confluence
-                VS Code, IntelliJ IDEA, WebStorm
-                Figma
-                React
-                Redux
-                Webpack, Vite
-                npm, yarn
-                AntDesign, Material UI
+            <section class="skills">
+                <h2>Skills and Proficiency:</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript, TypeScript</li>
+                    <li>Git, Github/Gitlab/Bitbucket, Jira, Confluence</li>
+                    <li>VS Code, IntelliJ IDEA, WebStorm</li>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Webpack, Vite</li>
+                    <li>npm, yarn</li>
+                    <li>AntDesign, Material UI</li>
+                </ul>
+            </section>
+            <section class="code-example">
+                <pre>
+                <code>
+                    import {useState} from "react";
+                    import { useQueries } from "@tanstack/react-query";
+                    import { fetchRates, fetchSymbols } from "../../Converter/api/fetchData";
+
+                    export const useCurrency = () => {
+                    const [amount, setAmount] = useState(50);
+                    const [currencyOne, setCurrencyOne] = useState("RUB");
+                    const [currencyTwo, setCurrencyTwo] = useState("USD");
+
+                    const [ratesData, symbolsData] = useQueries({
+                        queries: [
+                        {
+                            queryKey: ["rates", currencyOne],
+                            queryFn: () => fetchRates(currencyOne),
+                            staleTime: Infinity,
+                            select: ({rates, date, timestamp}) => {
+                            return {rates, date, timestamp};
+                            },
+                            keepPreviousData: true
+                        },
+                        {
+                            queryKey: ["symbols"],
+                            queryFn: fetchSymbols,
+                            staleTime: Infinity,
+                            select: ({symbols}) => symbols
+                        }
+                        ]
+                    });
+                </code>
+            </pre>
             </section>
         </div>
     </main>

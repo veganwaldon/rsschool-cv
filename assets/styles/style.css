@@ -7,6 +7,7 @@
 
 li {
     list-style-type: none;
+    color: #6d6e6f;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,26 +76,26 @@ address {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 1.75rem 1.75rem 0rem;
+    padding: 1.7rem 1.7rem 0rem;
     background-color: #2b2c2c;
     z-index: 2;
   }
 
   .profile-title {
     width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  -webkit-box-align: center;
+    -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.75rem 1.75rem 0rem;
-  background-color: #858888;
-  z-index: 2;
-  position: relative;
+    padding: 1.7rem 1.7rem 0rem;
+    background-color: #858888;
+    z-index: 2;
+    position: relative;
   }
 
 .section-profile-logo {
@@ -107,14 +108,26 @@ address {
 
 .header-contacts {
     display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1.75rem 1.75rem 1.75rem;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
+     padding: 1.7rem 1.7rem 1.7rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.about-me {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.skills {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
