@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #bdbebf;
+  }
+
+h1 {
+    font-size: 4.2rem;
+  }
+
+p, a {
+    color: #6d6e6f;
+    font-size: 1rem;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #ffffff;
+  }
+
+a:active {
+    color: #979899;
+  }
+
+address {
+    font-style: normal;
+    color: #57595a;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+.subtitle {
+    font-weight: 500;
+    font-style: bold;
+  }
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: #958f8f;
+}
+
+.container header-container {
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+.section section-profile {
+    width: 60%;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1.75rem 1.75rem 0rem;
+    background-color: #2b2c2c;
+    z-index: 2;
+  }
+
+  .profile-title {
+    width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.75rem 1.75rem 0rem;
+  background-color: #858888;
+  z-index: 2;
+  position: relative;
+  }
+
+.section-profile-logo {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header-contacts {
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.75rem 1.75rem 1.75rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
