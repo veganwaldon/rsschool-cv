@@ -114,10 +114,38 @@ address {
     padding: 10px;
 }
 
+.projects {
+    display: block;
+    padding: 10px;
+}
+
 .main {
     background-color: #a7acac;;
 }
 
 code {
     font-size: 0.7rem;
+}
+
+.footer {
+    background-color: #4f5656;
+}
+
+.rss {
+    margin: 0 auto;
+    display: flex;
+    width: 121px;
+    height: 45px;
+    background: url(../img/rs_school_js.svg) center center no-repeat;
+    background-size: cover;
+    justify-content:center;
+}
+
+.git {
+    margin: 0 auto;
+    display: flex;
+    width: 50px;
+    height: 45px;
+    background: url(../img/github-mark.svg) center center no-repeat;
+    background-size: cover;
 }
