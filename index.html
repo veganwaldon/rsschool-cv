@@ -14,23 +14,23 @@
 <body>
     <header class="header">
         <div class="container header-container">
-            <section class="section section-profile" id="profile">
-                <img src="./assets/img/avatar.jpg" alt="photo" class="section-profile-logo">
+            <section>
+                <img src="./assets/img/avatar.jpg" alt="photo" class="profile-logo">
             </section>
             <section class="profile-title">
-                <h1 class="title">Tuyara Grigoreva</h1>
-                <h3 class="subtitle">Frontend Developer</h3>
+                <h1>Tuyara Grigoreva</h1>
+                <h3>Frontend Developer</h3>
             </section>
             <ul class="header-contacts">
-                <li class="header-contact-item">
+                <li>
                     <h4>Location</h4>
                     <address>Moscow, Russia</address>
                 </li>
-                <li class="header-contact-item">
+                <li>
                     <h4>Telegram</h4>
                     <p><a href="https://t.me/veganwaldon">@veganwaldon</a></p>
                 </li>
-                <li class="header-contact-item">
+                <li>
                     <h4>Email</h4>
                     <p><a href="mailto:tuyagrig@gmail.com">tuyagrig@gmail.com</a></p>
                 </li>
@@ -42,7 +42,7 @@
         <div class="container main-container">
             <section class="about-me">
                 <h2>About me:</h2>
-                <p>I’m interested in Web Development, because I'm passionate about frontend.
+                <p>I’m interested in Web Development, because I'm passionate about frontend. <br>
                     I enjoy learning and gaining skills and would like to become a well-qualified Frontend Developer.
                 </p>
             </section>
@@ -61,6 +61,7 @@
                 </ul>
             </section>
             <section class="code-example">
+                <h2>Code Example:</h2>
                 <pre>
                 <code>
                     import {useState} from "react";
@@ -88,11 +89,16 @@
                             queryFn: fetchSymbols,
                             staleTime: Infinity,
                             select: ({symbols}) => symbols
-                        }
-                        ]
-                    });
+                        }]});
                 </code>
-            </pre>
+                </pre>
+            </section>
+            <section class="education">
+                <h2>Education:</h2>
+                <p>
+                    <li>Bauman Moscow State Technical University, Computer Science</li>
+                    <li>School 21, Programming</li>
+                </p>
             </section>
         </div>
     </main>
