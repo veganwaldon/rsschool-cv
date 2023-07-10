@@ -19,7 +19,7 @@ h1 {
   }
 
 p, a, code {
-    color: #6d6e6f;
+    color: #5a5f64;
     font-size: 1rem;
   }
 
@@ -120,7 +120,7 @@ address {
 }
 
 .main {
-    background-color: #a7acac;;
+    background-color: #939797;;
 }
 
 code {
@@ -128,7 +128,7 @@ code {
 }
 
 .footer {
-    background-color: #4f5656;
+    background-color: #aeadaa;
 }
 
 .rss {
