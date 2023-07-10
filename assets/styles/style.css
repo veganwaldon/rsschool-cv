@@ -18,7 +18,7 @@ h1 {
     font-size: 4.2rem;
   }
 
-p, a {
+p, a, code {
     color: #6d6e6f;
     font-size: 1rem;
   }
@@ -40,17 +40,6 @@ address {
     color: #57595a;
 }
 
-.container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-.subtitle {
-    font-weight: 500;
-    font-style: bold;
-  }
-
 .header {
     height: 100vh;
     width: 100%;
@@ -62,23 +51,6 @@ address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-
-.section section-profile {
-    width: 60%;
-    height: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 1.7rem 1.7rem 0rem;
-    background-color: #2b2c2c;
-    z-index: 2;
   }
 
   .profile-title {
@@ -98,7 +70,7 @@ address {
     position: relative;
   }
 
-.section-profile-logo {
+.profile-logo {
     margin-top: 20px;
     width: 250px;
     height: 250px;
@@ -122,12 +94,30 @@ address {
 
 .about-me {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    padding: 10px;
 }
 
 .skills {
     display: block;
+    padding: 10px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+}
+
+.code-example {
+    display: block;
+    padding: 10px;
+}
+
+.education {
+    display: block;
+    padding: 10px;
+}
+
+.main {
+    background-color: #a7acac;;
+}
+
+code {
+    font-size: 0.7rem;
 }
