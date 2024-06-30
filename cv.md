@@ -1,5 +1,5 @@
 # Tuyara Grigoreva
-### Junior Frontend Developer
+### Frontend Developer
 
 ---
 
